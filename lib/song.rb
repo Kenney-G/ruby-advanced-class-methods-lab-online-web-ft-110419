@@ -40,7 +40,7 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    hang_on = filename.split(/[-.\s][^mp3]/)
+    hang_on = filename.split(/[-.\s][mp3]/)
    end
 
   def save
