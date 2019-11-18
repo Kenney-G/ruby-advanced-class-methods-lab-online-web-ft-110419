@@ -40,7 +40,7 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    hang_on = filename.split(/[-.,]/)
+    hang_on = filename.split(/[.-,]/)
    end
 
   def save
