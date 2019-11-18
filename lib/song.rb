@@ -42,6 +42,8 @@ end
 def self.new_from_filename(filename="filename")
     split_one = filename.split(/[-.](mp3)/)
     split_two = split_one.shift.split("-")
+    @name = name
+    @artist_name = artist_name
     split_two[0] = Song.artist_name
     split_two[1] = Song.name
    end
