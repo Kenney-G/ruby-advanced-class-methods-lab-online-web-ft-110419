@@ -41,7 +41,7 @@ end
 
 def self.new_from_filename(filename)
     filename = Song.new(filename)
-    filename.map {|s| 
+    filename.strip 
     song
 end
 
