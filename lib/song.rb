@@ -37,7 +37,6 @@ end
  
  def Song.alphabetical
    @name = name
-   binding.pry
    @@all.each.name
 end
 
