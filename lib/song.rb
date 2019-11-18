@@ -41,7 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/[-.](mp3)/)
-    just_a_sec = hang_on.shift.split(/-/).delete
+    just_a_sec = hang_on.shift.split("-").delete
    end
 
   def save
