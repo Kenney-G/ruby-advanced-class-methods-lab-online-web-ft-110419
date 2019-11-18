@@ -40,7 +40,7 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    filename.chomp!(separator="-",/".mp3")
+    filename.split()
    end
 
   def save
