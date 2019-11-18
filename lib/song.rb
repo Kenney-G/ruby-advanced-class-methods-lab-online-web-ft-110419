@@ -39,9 +39,10 @@ end
    @@all.each.sort_by{|s| s.name}
 end
 
-def self.new_from_filename(filename)
-    filename.strip 
-    filename = Song.new
+def self.new_from_filename(filename="filename")
+    temp_name = filename.strip 
+    temp_name.to_s.join(" ")
+    Song.find_or_create_by_name
 end
 
   def save
