@@ -41,8 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     temp_name = filename.strip 
-    temp_name.to_s.join(" ")
-    Song.find_or_create_by_name
+    temp_name
 end
 
   def save
