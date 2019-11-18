@@ -41,7 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split("-")
-
+    just_a_sec = hang_on.delete_if {|item| block} → ary
    end
 
   def save
