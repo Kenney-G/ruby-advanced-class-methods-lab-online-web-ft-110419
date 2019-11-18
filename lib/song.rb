@@ -41,7 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/\W/)
-
+    hang_on.concat
    end
 
   def save
