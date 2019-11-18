@@ -59,7 +59,7 @@ end
     self.class.all << self
   end
 
-def destroy_all
+def self.destroy_all
   Song.all.clear
 end 
 
