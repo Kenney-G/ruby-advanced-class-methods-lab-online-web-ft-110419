@@ -37,7 +37,7 @@ end
  
  def Song.alphabetical
    @name = name
-   @@all.each.sort_by{|s|
+   @@all.each.sort_by{|s| s.name}
 end
 
   def save
