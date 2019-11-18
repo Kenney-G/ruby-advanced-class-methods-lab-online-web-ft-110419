@@ -41,9 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/\W/)
-    hang_on.delete(mp3)
-    just_a_sec = hang_on.join("")
-    
+
    end
 
   def save
