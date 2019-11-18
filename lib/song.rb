@@ -41,6 +41,7 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/[-.\s](mp3)/)
+    just_a_sec = hang_on.pop
    end
 
   def save
