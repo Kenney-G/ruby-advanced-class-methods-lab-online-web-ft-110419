@@ -39,9 +39,9 @@ end
    @@all.each.sort_by{|s| s.name}
 end
 
-def self.new_from_filename(song_name)
-    song = self.create
-    song.name = song_name
+def self.new_from_filename(filename)
+    filename = Song.new(filename)
+    filename.map {|s| 
     song
 end
 
