@@ -40,9 +40,8 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    filename.artist_name = filename
-    temp_name
-end
+    filename.chomp!(separator=$/) → str or nil
+   end
 
   def save
     self.class.all << self
