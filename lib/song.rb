@@ -40,7 +40,8 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    filename.split(/\W/)
+    hang_on = filename.split(/\W/)
+    just_a_sec = hang_on.join("")
    end
 
   def save
