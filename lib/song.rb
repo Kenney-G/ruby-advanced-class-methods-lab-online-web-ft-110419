@@ -43,7 +43,7 @@ def self.new_from_filename(filename="filename")
     split_one = filename.split(/[-.](mp3)/)
     split_two = split_one.shift.split("-")
     song_name = split_two[1] 
-    artist_name = split_two[0].delete(/\[/s]/)
+    artist_name = split_two[0].delete(/\[/s\]/)
     
     song = self.create
     song.name = song_name
