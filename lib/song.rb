@@ -38,7 +38,7 @@ end
  def Song.alphabetical
    @name = name
     binding.pry
-   @@all.each {|s| puts s.name.join(" ").sort}
+   @@all.each {|s| puts s.name}
 end
 
   def save
