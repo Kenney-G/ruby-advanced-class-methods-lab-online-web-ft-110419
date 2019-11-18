@@ -42,7 +42,6 @@ end
 def self.new_from_filename(filename)
     filename.strip 
     filename = Song.new
-    song
 end
 
   def save
