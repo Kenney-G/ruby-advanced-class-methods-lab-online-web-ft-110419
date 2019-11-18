@@ -61,5 +61,6 @@ end
 
 def destroy_all
   Song.all.clear
- 
+end 
+
 end
