@@ -42,7 +42,7 @@ end
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/\W/)
     just_a_sec = hang_on.concat
-    im_doing_it = just_a_sec.delete("mp3")
+    im_doing_it = just_a_sec.delete_if {|it| == "mp3"}
     almost_there = im_doing_it.join(", ")
 
    end
