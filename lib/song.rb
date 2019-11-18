@@ -44,6 +44,7 @@ def self.new_from_filename(filename="filename")
     split_two = split_one.shift.split("-")
     split_two[1] = song_name
     split_two[0] = artist_name
+    
     song = self.create
     song.name = song_name
     song.artist_name = artist_name
