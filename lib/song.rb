@@ -39,6 +39,12 @@ end
    @@all.each.sort_by{|s| s.name}
 end
 
+def self.new_from_filename(song_name)
+    song = self.create
+    song.name = song_name
+    song
+end
+
   def save
     self.class.all << self
   end
