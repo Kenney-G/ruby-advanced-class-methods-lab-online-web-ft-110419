@@ -40,7 +40,7 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    temp_name = filename.strip 
+    filename.artist_name = filename
     temp_name
 end
 
