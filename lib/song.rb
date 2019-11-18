@@ -40,8 +40,8 @@ end
 end
 
 def self.new_from_filename(filename)
-    filename = Song.new(self)
     filename.strip 
+    filename = Song.new
     song
 end
 
