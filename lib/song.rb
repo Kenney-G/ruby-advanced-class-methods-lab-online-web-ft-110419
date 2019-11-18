@@ -40,7 +40,7 @@ end
 end
 
 def self.new_from_filename(filename="filename")
-    filename.chomp!(separator=$/) → str or nil
+    filename.chomp!(separator=$/)
    end
 
   def save
