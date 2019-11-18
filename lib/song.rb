@@ -41,7 +41,8 @@ end
 
 def self.new_from_filename(filename="filename")
     hang_on = filename.split(/\W/)
-    hang_on.concat
+    just_a_sec = hang_on.concat
+    im_doing_it = delete
    end
 
   def save
